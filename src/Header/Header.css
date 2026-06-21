@@ -3,6 +3,30 @@ a{
     text-decoration: none;
 }
 
-.active-header-link :hover{
-    color: white;
+#top-header-wrapper {
+    min-height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: "Time New Roman";
+    padding: 12px 24px;
+    gap: 20px;
+}
+
+#top-header-wrapper > .left{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#top-header-wrapper > img{
+    max-height: 70px;
+    width: auto;
+    background: rgb(148, 112, 57);
+}
+
+.active-header-link:hover{
+    color: rgb(148, 112, 57);
+    text-decoration: underline rgb(148, 112, 57);
 }

@@ -16,7 +16,7 @@ function Footer() {
 
     return(
         <footer id="footer-wrap">
-            <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
+            <div style={{display: "flex", flexDirection: "column", gap: "1rem", flexWrap: "wrap"}}>
                 <img src={companyLogo} style={imgStyle} alt="Our Company Logo" />
 
                 Copyright &copy; John L. Michels {new Date().getFullYear()}.
@@ -27,11 +27,11 @@ function Footer() {
             <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
                 <div className="footer-right-top" style={{color: "white"}}>
                     <h4 style={h4Style}>VISIT OFFICE:</h4>
-                    {address && <p style={{marginTop: "0.5rem"}}>{address}</p>}
+                    {address ? <p style={{marginTop: "0.5rem"}}>{address}</p> : null}
                 </div>
                 <div className="footer-right-bottom" style={{color: "white"}}>
                     <h4 style={h4Style}>CONTACT US</h4>
-                    {email && <p style={{marginTop: "0.5rem"}}>{email}</p>}
+                    {email ? <p style={{marginTop: "0.5rem"}}>{email}</p> : <p style={{marginTop: "0.5rem"}}>Email not available</p>}
                 </div>
             </div>
         </footer>
