@@ -30,3 +30,13 @@ a{
     color: rgb(148, 112, 57);
     text-decoration: underline rgb(148, 112, 57);
 }
+
+
+.bottom-header-wrapper{
+    color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem
+}
