@@ -7,7 +7,7 @@ function Body() {
     return (
         <div id="body-wrapper">
             <div id="top">
-                <h1>{name.toUpperCase()}</h1>
+                <h1>{name.join(' ').toUpperCase()}</h1>
             </div>
             <div id="bottom-body-wrapper">
                 <LeftBody />
