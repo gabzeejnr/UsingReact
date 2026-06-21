@@ -8,7 +8,7 @@ function BottomHeader() {
             <a className="active-header-link" href="#">ABOUT</a>
             <a className="active-header-link" href="#">CASE STUDIES</a>
             <a className="active-header-link" href="#">AREAS OF PRACTICE</a>
-            <a className="active-header-link" href="#">CONTACTS</a>
+            <a className="active-header-link" href="#footer-wrap">CONTACTS</a>
         </div>
     )
 }

@@ -1,0 +1,30 @@
+#body-wrapper{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+#body-wrapper > #top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: #B1976B;
+}
+
+#body-wrapper > #top > h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+#bottom-body-wrapper{
+    margin-top: 1rem;
+    padding: 0 1rem 0 0;
+    display: flex;
+    margin: 0;
+}

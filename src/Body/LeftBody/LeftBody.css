@@ -1,0 +1,31 @@
+#left-body-wrapper{
+    background: #E7DFD2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid black;
+    margin-left: 5rem;
+}
+
+#left-body-wrapper > img{
+    width: 250px;
+    height: auto;
+}
+
+#left-body-wrapper > .about{
+    width: 200px;
+    border: 1px solid black;
+    margin-bottom: 1em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.team_member_details > span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 14px;
+
+}
