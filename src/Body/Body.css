@@ -27,4 +27,9 @@
     padding: 0 1rem 0 0;
     display: flex;
     margin: 0;
+    @media (max-width: 720px) {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
 }
