@@ -1,14 +1,17 @@
 import companyLogo from '../assets/company-logo.png';
+import { address, email } from '../AboutClient.jsx';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function TopHeader() {
 
-    const address = `7095 Indiana Ave #200, Riverside, CA 92506`;
     
     const addressStyle ={
         fontSize: "14px",
+        display: "flex",
+        alignItems: "center",
+        gap: "0.5rem"
     }
     const wrapperStyle={
         minHeight: "80%",
@@ -38,8 +41,8 @@ function TopHeader() {
             <img style={imageStyle} src={companyLogo} alt="Our Company Logo" />
             <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginRight: "1rem" }}>
                 <FontAwesomeIcon icon={faEnvelope} style={{ color: "rgb(177, 151, 107)" }} />
-                <a style={mailStyle} href="mailto:johnmicheals815@gmail.com" className="active-header-link">
-                    johnmicheals815@gmail.com
+                <a style={mailStyle} href={`mailto:${email}`} className="active-header-link">
+                    {email}
                 </a>
                 <FontAwesomeIcon icon={faWhatsapp} style={{ color: "green", fontSize: "1.2rem" }} />
             </div>
