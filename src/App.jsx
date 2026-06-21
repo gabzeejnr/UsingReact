@@ -1,12 +1,13 @@
 import {useState} from 'react';
 import Header from './Header/Header.jsx';
 import Footer from './Footer/Footer.jsx';
+import Body from './Body/Body.jsx';
 
 function App() {
   return(
     <div className="App">
       <Header />
-      <h1>Hello</h1>
+      <Body />
       <Footer />
     </div>
   )

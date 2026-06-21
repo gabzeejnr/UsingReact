@@ -9,16 +9,15 @@ function Header() {
         minHeight: "9rem"
     }
     const hrStyle={
-        backgroundColor: "rgb(148, 112, 57)"
+        backgroundColor: "rgb(148, 112, 57)",
+        border: "0px solid transparent",
+        height: "1px"
     }
 
     return(
         <header id="header-wrapper" style={divStyle}>
             <TopHeader />
-            <hr style={{backgroundColor: "rgb(148, 112, 57)",
-                border: "0px solid transparent",
-                height: "1px"
-            }} />
+            <hr style={hrStyle} />
             <BottomHeader />
         </header>
     )
