@@ -16,7 +16,8 @@ function Header() {
         <header id="header-wrapper" style={divStyle}>
             <TopHeader />
             <hr style={{backgroundColor: "rgb(148, 112, 57)",
-                border: "1px solid transparent"
+                border: "0px solid transparent",
+                height: "1px"
             }} />
             <BottomHeader />
         </header>
