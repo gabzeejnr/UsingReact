@@ -4,11 +4,11 @@ import Footer from './Footer/Footer.jsx';
 
 function App() {
   return(
-  <>
-    <Header />
-    <h1>Hello</h1>
-    <Footer />
-  </>
+    <div className="App">
+      <Header />
+      <h1>Hello</h1>
+      <Footer />
+    </div>
   )
 }
 

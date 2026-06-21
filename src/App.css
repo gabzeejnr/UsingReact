@@ -4,6 +4,12 @@ body{
   width: 100%;
 }
 
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 #footer-wrap{
   background: #B1976B;
   min-height: 10rem;
