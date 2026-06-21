@@ -1,0 +1,21 @@
+body{
+  min-height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+#footer-wrap{
+  background: rgb(231, 223, 210);
+  min-height: 10rem;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+#footer-wrap > div{
+  max-width: 20rem;
+  padding-right: 1rem;
+}
