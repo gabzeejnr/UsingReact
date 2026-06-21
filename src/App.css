@@ -5,14 +5,15 @@ body{
 }
 
 #footer-wrap{
-  background: rgb(231, 223, 210);
+  background: #B1976B;
   min-height: 10rem;
   margin-top: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   gap: 5rem;
+  padding: 2rem 3rem;
 }
 
 #footer-wrap > div{
