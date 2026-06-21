@@ -1,4 +1,4 @@
-import { email } from '../../AboutClient';
+import { email, name, yearsWithUs } from '../../AboutClient';
 import clientPicture from '../../assets/johnlmichels.jfif';
 import './LeftBody.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,6 +9,10 @@ function LeftBody() {
         <div id="left-body-wrapper">
             <img src={clientPicture} alt="Client" />
             <div className="team-member-description">
+                <div className='team-member-name-area'>
+                    <span className='years'>{yearsWithUs} YEARS OF PRACTICE</span>
+                    <span className='name'>{name.join(' ')}</span>
+                </div>
                 <p>
                     Partner,
                     <br />

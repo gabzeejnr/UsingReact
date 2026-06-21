@@ -8,7 +8,6 @@ function Footer() {
         background: "#transparent",
         maxHeight: "70px",
         maxWidth: "140px",
-        marginLeft: "-1rem",
     }
 
     const h4Style ={

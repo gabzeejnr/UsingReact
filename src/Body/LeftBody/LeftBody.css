@@ -1,13 +1,13 @@
 #left-body-wrapper{
     background: #E7DFD2;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
     margin-left: 5rem;
     @media (max-width: 720px) {
         margin: 0;
-        width: fit-content;
+        width: 100%;
     }
 }
 
@@ -15,7 +15,7 @@
     width: 250px;
     height: auto;
     @media (max-width: 720px) {
-        min-width: 500px;
+        width: 100%;
         height: auto;
     }
 }
@@ -27,12 +27,50 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 0.5rem;
+    @media (max-width: 720px) {
+        margin-left: 1rem;
+        width: 300px;
+    }
 }
 
-.team_member_details > span {
+#left-body-wrapper > .team-member-description .team-member-name-area{
     display: flex;
+    flex-direction: column;
+}
+
+#left-body-wrapper > .team-member-description .team-member-name-area .years{
+    font-size: 10px;
+    color: #B1976B;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#left-body-wrapper > .team-member-description .team-member-name-area .name{
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+#left-body-wrapper > .team-member-description p{
+    font-family: 'Franklin Gothic Medium', 'sans-serif';
+    font-size: 15px;
+    line-height: 2;
+}
+
+#left-body-wrapper > .team-member-description .team_member_details p{
+    font-weight: bold;
+    font-family: Arial;
+    margin: 0;
+}
+
+#left-body-wrapper > .team-member-description .team_member_details > span {
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 0.5rem;
-    font-size: 14px;
-
+    font-family: cursive;
+    @media (min-width: 721px) {
+        font-size: 12px;
+    }
 }
