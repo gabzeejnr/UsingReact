@@ -8,7 +8,7 @@ function LeftBody() {
     return (
         <div id="left-body-wrapper">
             <img src={clientPicture} alt="Client" />
-            <div className="about">
+            <div className="team-member-description">
                 <p>
                     Partner,
                     <br />
